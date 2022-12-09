@@ -9,8 +9,8 @@ int main() {
   pid_t pid = fork();
 
   if (pid == 0) {
-    char *args[] = { "ctest", NULL };
-    execvp("ctest", args);
+    char *args[] = { "./build/ctest", NULL };
+    execvp("./build/ctest", args);
   } else {
     int exit_status;
     wait(&exit_status);

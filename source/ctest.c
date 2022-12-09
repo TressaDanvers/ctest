@@ -6,7 +6,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#define VERSION "0.0.0.0"
+#define VERSION "0.0.0.1"
 
 int main(const unsigned char argc, const char *args[]) {
   if (argc == 2) {
