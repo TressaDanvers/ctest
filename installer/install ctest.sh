@@ -1,1 +1,0 @@
-sudo cp ./ctest /bin/

@@ -1,5 +1,4 @@
 rm ./installer.zip
-rm -fr ./installer
 mkdir ./installer
 
 # CTest Installer
@@ -15,3 +14,4 @@ echo sudo /sbin/ldconfig >> ./installer/install\ cassert.sh
 
 # Zip
 zip -r ./installer.zip ./installer
+rm -fr ./installer
